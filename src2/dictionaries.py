@@ -1,5 +1,7 @@
-ages = {"Alice": 22, "Bob": 27}
-ages["Charlie"] = 30
-ages["Alice"] += 1
+ages = {"Alice": 28, "Bob": 23}
 
-print(ages)
+
+ages["Charlie"] = 25
+ages["Alice"] += 2
+
+print(ages["Bob"])

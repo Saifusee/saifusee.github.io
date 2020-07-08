@@ -10,4 +10,4 @@ print(s)
 
 # Remove elemnt from set
 s.remove(5)
-print(s)
+print(f"the length of our set is {len(s)} which contain {s}")
