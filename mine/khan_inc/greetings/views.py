@@ -10,3 +10,6 @@ def inputnamegreet(request, inputname):
     return render(request, "greetings/greet.html",{
         "inputname":inputname.capitalize
     })
+
+def git(request):
+    return render(request, "greetings/index.html")
