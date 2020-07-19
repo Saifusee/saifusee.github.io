@@ -1,0 +1,13 @@
+{% extends "taskapp/layout.html" %}
+{% block body %}
+<div>
+    <ol>
+        {% for task in tasks%}
+        <li> {{task}} </li>
+        {% endfor %}
+    </ol>
+</div>
+<div class="links">
+  <a href="{% url 'taskapp:addnewtask' %}"> Add Task</a>
+</div>
+{% endblock %}

@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'greetings',
+    'taskapp',
     'independence_day',
     'django.contrib.admin',
     'django.contrib.auth',

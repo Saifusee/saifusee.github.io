@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
+    path('taskapp/', include("taskapp.urls")),
     path('greetings/', include("greetings.urls")),
     path('independence_day/', include("independence_day.urls")),
     path('admin/', admin.site.urls)

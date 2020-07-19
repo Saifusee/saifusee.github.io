@@ -1,0 +1,13 @@
+{% extends "taskapp/layout.html" %}
+{% block body %}
+<div>
+    <form>
+        {{forms}}
+    </form>
+</div>
+
+
+<div class="links">
+ <a href="{% url 'taskapp:list'%}">List of Tasks</a>
+</div>
+{% endblock %}
