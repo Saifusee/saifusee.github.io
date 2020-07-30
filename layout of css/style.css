@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    width: 100%;
+    
+    text-align: center;
+    font: normal small-caps bold  40px/100px sans-serif;
+}
+
+ul, form{
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888888
+}
+
+.li1 {
+    float: left;
+}
+
+.li1 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin: 1px;
+    background-color: black;
+    color: white;
+}
+.li1 a:hover{
+    background-color: crimson;
+}
+input{
+    float: right;
+    text-align: left;
+    padding: 10px 12px;
+    margin: 3px;
+}
+svg {
+    float: right;
+    font-size: 35px;
+    margin: 7px 3px 5px;
+    padding: 1px 3px;
+    border: 1px outset black;
+    border-radius: 8px;
+    background-color: #e9e9e9;
+}
+
+svg:hover, svg:active, svg:visited{
+    background-color: #f9f9f9;
+    border: outset;
+}
+
+
+.arti{
+    width:80%;
+    margin:1px;
+    outline: 4px solid  blueviolet;
+    outline-offset:4px;
+}
+
+.div1{
+
+    font:oblique 20px sofia;
+} 
+
+#s1 {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    border:4px solid #e6e600;
+    width:19%;
+    margin: 0px;
+    background-color: #ffff80;    
+
+}
+
+#s1 > a{
+    display: block;
+    color: blue;
+    margin:1px;
+    padding:1px;
+    text-decoration: none;
+
+}
+#s1 > a:hover{
+    color: red;
+}
+#s1 span{
+    color:red;
+}
+
+#s2 {
+    position: absolute;
+    bottom: 75px;
+    right: 0px;
+    width: 19%;
+    border: 4px solid #e6e600;
+    padding: 2px;
+    margin:1px;
+    background: url("ab.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+footer{
+    background-color: gray;
+    margin:auto;
+    padding:3px;
+    width: 100%;
+    height:70px;
+}
+footer a{
+    position: absolute;
+    right: 0px;
+    display: block;
+    font-size: 100px;
+}
